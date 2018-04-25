@@ -1,0 +1,94 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 9, Errors: 0, Skipped: 0, Time elapsed: 4.792 sec <<< FAILURE!
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.063 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.158 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.042 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.033 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at com.google.common.collect.CollectPreconditions.checkEntryNotNull(CollectPreconditions.java:33)
+	at com.google.common.collect.SingletonImmutableBiMap.<init>(SingletonImmutableBiMap.java:39)
+	at com.google.common.collect.ImmutableBiMap.of(ImmutableBiMap.java:57)
+	at com.google.common.collect.ImmutableMap.of(ImmutableMap.java:80)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at com.ccautomation.utils.WebUtils.navigateToUrl(WebUtils.java:56)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:45)
+

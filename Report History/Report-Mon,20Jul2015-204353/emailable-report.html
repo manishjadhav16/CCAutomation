@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">PageTitle</td><td class="numi">5</td><td class="numi">5</td><td class="numi">0</td><td class="numi">0</td><td class="numi">164.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">PageTitle &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="5">com.ccautomation.pagetitle.PageTitleTest</td><td><a href="#m1"><b>verifyTitle</b>  </a></td><td class="numi">5</td><td>1437405030902</td><td class="numi">155618</td></tr><tr class="passedodd"><td><a href="#m2"><b>verifyTitle</b>  </a></td><td class="numi">5</td><td>1437405030902</td><td class="numi">155618</td></tr><tr class="passedodd"><td><a href="#m3"><b>verifyTitle</b>  </a></td><td class="numi">5</td><td>1437405030902</td><td class="numi">155618</td></tr><tr class="passedodd"><td><a href="#m4"><b>verifyTitle</b>  </a></td><td class="numi">5</td><td>1437405030902</td><td class="numi">155618</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyTitle</b>  </a></td><td class="numi">5</td><td>1437405030902</td><td class="numi">155618</td></tr>
+</table>
+<h1>PageTitle</h1>
+<h2 id="m1">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Photos Page</td>
+<td>Cricket Photos - Image Gallery of Cricket Players in Action | Cricket Photo Gallery at CricketCountry.com | Cricket Country</td>
+<td>http://www.cricketcountry.com/photos</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+ActualPage Title : Cricket Photos - Image Gallery of Cricket Players in Action | Cricket Photo Gallery at CricketCountry.com | Cricket Country<br/>
+Photos Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Videos Page</td>
+<td>Cricket Videos | Live Cricket Videos &amp; News | Free Cricket Highlight Videos | CricketCountry.com | Cricket Country</td>
+<td>http://www.cricketcountry.com/videos</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+ActualPage Title : Cricket Videos | Live Cricket Videos & News | Free Cricket Highlight Videos | CricketCountry.com | Cricket Country<br/>
+Videos Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>News Page</td>
+<td>Cricket News - Latest Cricket News, Live Match Updates &amp; News Articles on cricketcountry.com | Cricket Country</td>
+<td>http://www.cricketcountry.com/news</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+ActualPage Title : Cricket News - Latest Cricket News, Live Match Updates & News Articles on cricketcountry.com | Cricket Country<br/>
+News Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Home page</td>
+<td>Live Cricket Score &amp; News | Latest Articles &amp; Match Updates | Cricket Photos &amp; Videos | CricketCountry.com</td>
+<td>http://www.cricketcountry.com/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+ActualPage Title : Live Cricket Score & News | Latest Articles & Match Updates | Cricket Photos & Videos | CricketCountry.com<br/>
+Home page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr>
+<tr class="param stripe"><td>Article Page</td>
+<td>Cricket Articles | Cricket News | Cricket Blogs | Cricket Posts | CricketCountry.com | Cricket Country</td>
+<td>http://www.cricketcountry.com/articles</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="3">
+ActualPage Title : Cricket Articles | Cricket News | Cricket Blogs | Cricket Posts | CricketCountry.com | Cricket Country<br/>
+Article Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

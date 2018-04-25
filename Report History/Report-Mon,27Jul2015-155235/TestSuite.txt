@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 664.582 sec <<< FAILURE!
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 31.37 sec  <<< FAILURE!
+java.lang.AssertionError: expected [ Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com ] but found [Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:54)
+
+verifyTitle(com.ccautomation.pagetitle.PageTitleTest)  Time elapsed: 31.122 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Delhi: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Delhi at India.com] but found [Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:54)
+

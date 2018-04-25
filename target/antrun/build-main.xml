@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <tstamp>
+    <format pattern="EEE,ddMMMyyyy-HHmmss" locale="en,UK" property="time"/>
+  </tstamp>
+  <property name="suite" value="Sanity"/>
+  <mkdir dir="Report History/Report-${time}"></mkdir>
+  <copy todir="Report History/Report-${time}">
+    <fileset dir="target/surefire-reports"/>
+  </copy>
+  <copy todir="Report History/Report-${time}/Data/Input">
+    <fileset dir="target/test-classes/data/input"/>
+  </copy>
+  <mkdir dir="Report History/Report-${time}/target-${Suite}"></mkdir>
+  <copy todir="Report History/Report-${time}/target-${Suite}">
+    <fileset dir="target"/>
+  </copy>
+  <zip update="true" basedir="Report History/Report-${time}" destfile="Report History/Report-${time}.zip"/>
+</target>
+</project>

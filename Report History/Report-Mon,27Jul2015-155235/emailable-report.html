@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">PageTitle</td><td class="numi">21</td><td class="numi">19</td><td class="numi">0</td><td class="numi_attn">21</td><td class="numi">663.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">PageTitle &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="21">com.ccautomation.pagetitle.PageTitleTest</td><td><a href="#m1"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m2"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m3"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m4"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m5"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m6"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m7"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m8"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m9"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m10"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m11"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m12"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m13"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m14"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m15"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m16"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m17"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m18"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m19"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m20"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr><tr class="failedodd"><td><a href="#m21"><b>verifyTitle</b>  </a></td><td class="numi">2</td><td>1437992111468</td><td class="numi">317321</td></tr>
+<tr><th colspan="4">PageTitle &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="21">com.ccautomation.pagetitle.PageTitleTest</td><td><a href="#m22"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m23"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m24"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m25"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m26"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m27"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m28"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m29"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m30"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m31"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m32"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m33"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m34"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m35"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m36"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m37"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m38"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m39"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m40"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m41"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr><tr class="passedodd"><td><a href="#m42"><b>verifyTitle</b>  </a></td><td class="numi">19</td><td>1437991893323</td><td class="numi">660137</td></tr>
+</table>
+<h1>PageTitle</h1>
+<h2 id="m1">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Delhi Page</td>
+<td>Delhi: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Delhi at India.com</td>
+<td>Delhi: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Delhi including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Delhi news,latest Delhi news,Delhi updates,Delhi current affairs,politics news,Delhi breaking news,Delhi headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/cities/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>expected [Delhi: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Delhi at India.com] but found [Latest News on Indian Cities | Get Breaking News &amp; Exclusive Stories of Indian Cities at India.com]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:54)
+<br/>33 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Sports Page</td>
+<td> Latest Stories of Trending Topics on Sports | Humorous &amp; Satire Stories on Sport Celebrities | India.com </td>
+<td>Latest &amp; Popular Sports News - Read popular gossip, humorous &amp; satire News on cricket, football, tennis, badminton &amp; all other sports &amp; celebrities at India.com</td>
+<td>News on sports,gossip on cricket celebrities,satire news on sports,humours News on cricket,sports gossip,gossip on sports celebrities</td>
+<td>http://www.india.com/sports/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>expected [ Latest Stories of Trending Topics on Sports | Humorous &amp; Satire Stories on Sport Celebrities | India.com ] but found [Latest Stories of Trending Topics on Sports | Humorous &amp; Satire Stories on Sport Celebrities | India.com]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:54)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>News page</td>
+<td>Latest News India | Get Breaking &amp; Exclusive News Headlines &amp; Stories at India.com</td>
+<td>Latest News India – Get latest &amp; breaking news on politics, business, technology, bollywood, television, sports. Find exclusive news stories on current affairs, cricket matches, events, festivals &amp; more at india.com</td>
+<td>latest news,news updates,news headlines,india news,breaking news,political news,sports news,exclusive news,top news,live news updates,bollywood news,business news</td>
+<td>http://www.india.com/news/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Latest News India | Get Breaking & Exclusive News Headlines & Stories at India.com<br/>
+News page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Home Page</td>
+<td>India | Latest India News | Get Free India.com Email | Live Cricket and Entertainment News at India.Com</td>
+<td>India news &amp; live updates on cricket, entertainment &amp; latest technology by India.com - Proud to be India. Start using India&apos;s most amazing free email experience: India.com Mail now.</td>
+<td>India news &amp; live updates on cricket, entertainment &amp; latest technology by India.com - Proud to be India. Start using India&apos;s most amazing free email experience: India.com Mail now.</td>
+<td>http://www.india.com/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : India | Latest India News | Get Free India.com Email | Live Cricket and Entertainment News at India.Com<br/>
+Home Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Bangalore Page</td>
+<td>Bangalore: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Bangalore at India.com</td>
+<td>Bangalore: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Bangalore including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Bangalore news,latest Bangalore news,Bangalore updates,Bangalore current affairs,politics news,Bangalore breaking news,Bangalore headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/bangalore/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Bangalore: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Bangalore at India.com<br/>
+Bangalore Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Top n Page</td>
+<td>Popular Listings on Hot Topics | Trending News on Entertainment, Sports &amp; Technology at India.com</td>
+<td>Popular Listings News &amp; Hot Topics - Read popular &amp; humorous gossip on entertainment, sports &amp; technology at India.com</td>
+<td>latest News,popular News,bollywood News,Hollywood News,humorous News,popular topics,hot News,News on sports</td>
+<td>http://www.india.com/top-n/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Popular Listings on Hot Topics | Trending News on Entertainment, Sports & Technology at India.com<br/>
+Top n Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Stream Page</td>
+<td>Watch Videos Online For Free | Funny &amp; Viral Videos | India.com</td>
+<td>Watch Videos Online For Free -  Get Hot , Funny &amp; Viral Videos at India.com</td>
+<td>Watch Videos Online,Hot videos online,Funny videos,Viral Videos,free videos online,video clips</td>
+<td>http://www.india.com/stream/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Watch Videos Online For Free | Funny & Viral Videos | India.com<br/>
+Stream Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Cities page</td>
+<td>Latest News on Indian Cities | Get Breaking News &amp; Exclusive Stories of Indian Cities at India.com</td>
+<td>Latest News on Indian Cities - Get breaking news &amp; exclusive stories of Indian cities including Delhi, Mumbai, Bangalore, Kolkata, Chennai, Hyderabad, Pune, Ahmedabad, Chandigarh &amp; Jaipur online at india.com</td>
+<td>Cities :  latest city news,city news,indian city news,metro city news,metro news,india metro news,news on metro cities,news on cities,news update metro,metro news update,india city news</td>
+<td>http://www.india.com/news/cities/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com<br/>
+Cities page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Chennai Page</td>
+<td>Chennai: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Chennai at India.com</td>
+<td>Chennai: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Chennai including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Chennai news,latest Chennai news,Chennai updates,Chennai current affairs,politics news,Chennai breaking news,Chennai headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/chennai/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Chennai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chennai at India.com<br/>
+Chennai Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Gallery Page</td>
+<td>Latest &amp; Popular Photo Galleries | Trending &amp; Hot Pictures | Pics on Current Affaires | India.com</td>
+<td>Latest &amp; Popular Photo Galleries - Explore trending photos &amp; unseen picture galleries of bollywood, Hollywood, sports &amp; other popular topics at India.com</td>
+<td>Photo gallery,picture gallery,bollywood unseen photos,popular photos,pictures of the day,Photo gallery of trending topics</td>
+<td>http://www.india.com/gallery/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Latest & Popular Photo Galleries | Trending & Hot Pictures | Pics on Current Affaires | India.com<br/>
+Gallery Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Jaipur Page</td>
+<td>Jaipur: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Jaipur at India.com</td>
+<td>Jaipur: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles of Jaipur including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Jaipur news,latest Jaipur news,Jaipur updates,Jaipur current affairs,politics news,Jaipur breaking news,Jaipur headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/jaipur/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Jaipur: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Jaipur at India.com<br/>
+Jaipur Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Chandigarh Page</td>
+<td>Chandigarh: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Chandigarh at India.com</td>
+<td>Chandigarh : Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Chandigarh including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Chandigarh news,latest Chandigarh news,Chandigarh updates,Chandigarh current affairs,politics news,Chandigarh breaking news,Chandigarh headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/chandigarh/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Chandigarh: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chandigarh at India.com<br/>
+Chandigarh Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Business page</td>
+<td>Business News | Live Sensex | Latest Stock Market &amp; Economy News India | India.com</td>
+<td>Latest Business News – Live Sensex &amp; latest updates on share market India including NSE, BSE, Top Companies, Markets, Sectors, Banking, interviews and money management tips at India.com</td>
+<td>latest business news,Indian stock market today,stock market news,financial advice,SENSEX live,Nifty,BSE,world business news,insurance,tax,stock market,forex,company profiles,global economy,technology news</td>
+<td>http://www.india.com/business/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Business News | Live Sensex | Latest Stock Market & Economy News India | India.com<br/>
+Business page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Ahmedabad Page</td>
+<td>Ahmedabad : Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Ahmedabad at India.com</td>
+<td>Ahmedabad: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Ahmedabad including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Ahmedabad  news,latest Ahmedabad news,Ahmedabad updates,Ahmedabad current affairs,politics news,Ahmedabad breaking news,&amp;lt;city name&amp;gt; headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/ahmedabad/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Ahmedabad : Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Ahmedabad at India.com<br/>
+Ahmedabad Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>India Page</td>
+<td>Latest India News | Get Breaking News Headlines, Live International Updates &amp; Stories of India at India.com</td>
+<td>India News &amp; Updates - Get latest &amp; breaking Indian news from Delhi, Mumbai, Bangalore, Kolkata, Chennai, Hyderabad, Pune, Ahmedabad, Chandigarh , Jaipur and rest of the india including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>India news,latest India news,India breaking news,local news,international news,uk headlines,us headlines,UAE headlines</td>
+<td>http://www.india.com/news/india/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Latest India News | Get Breaking News Headlines, Live International Updates & Stories of India at India.com<br/>
+India Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>World Page</td>
+<td>World : Latest World News | Get Breaking News Headlines, Live International Updates &amp; Stories of World at India.com</td>
+<td>World News &amp; Updates - Get latest &amp; breaking international news from US, UK, Europe, UAE and rest of the world including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>world news,latest world news,world breaking news,global news,international news,uk headlines,us headlines,UAE headlines</td>
+<td>http://www.india.com/news/world/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : World : Latest World News | Get Breaking News Headlines, Live International Updates & Stories of World at India.com<br/>
+World Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Whatever Page</td>
+<td>Latest News &amp; Gossip on Popular Trends | News Satire, Spoof &amp; Humour on Hot Topics | India.com</td>
+<td>Latest News on Popular &amp; Hot Topics - Read popular &amp; humorous gossip on entertainment, sports &amp; technology at India.com</td>
+<td>latest News,popular News,bollywood News,Hollywood News,humorous News,popular topics,hot News</td>
+<td>http://www.india.com/whatever/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Latest News & Gossip on Popular Trends | News Satire, Spoof & Humour on Hot Topics | India.com<br/>
+Whatever Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Pune Page</td>
+<td>Pune: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Pune at India.com</td>
+<td>Pune: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Pune including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Pune news,latest Pune news,Pune updates,Pune current affairs,politics news,Pune breaking news,Pune headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/pune/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Pune: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Pune at India.com<br/>
+Pune Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Hyderabad Page</td>
+<td>Hyderabad: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Hyderabad at India.com</td>
+<td>Hyderabad : Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Hyderabad including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Hyderabad news,latest Hyderabad news,Hyderabad updates,Hyderabad current affairs,politics news,Hyderabad breaking news,Hyderabad headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/hyderabad/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Hyderabad: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Hyderabad at India.com<br/>
+Hyderabad Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Showbiz Page</td>
+<td>Latest Entertainment Stories &amp; Gossip | Trending Bollywood &amp; Hollywood Stories | India.com</td>
+<td>Latest Entertainment News &amp; Gossip - Get hot &amp; trending news on bollywood &amp; hollywood movies, celebrities &amp; events at India.com</td>
+<td>bollywood news,Hollywood News,trending bollywood news,trending Hollywood news,celebrity gossip,celebrity News,bollywood gossip</td>
+<td>http://www.india.com/showbiz/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Latest Entertainment Stories & Gossip | Trending Bollywood & Hollywood Stories | India.com<br/>
+Showbiz Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.ccautomation.pagetitle.PageTitleTest:verifyTitle</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Mumbai Page</td>
+<td>Mumbai: Latest News &amp; Updates | Get Breaking News Headlines &amp; Exclusive Stories on Mumbai at India.com</td>
+<td>Mumbai: Latest News &amp; Updates - Get latest &amp; breaking news headlines, stories &amp; articles on Mumbai including current affairs, politics, business, entertainment, bollywood, sports &amp; more online at India.com</td>
+<td>Mumbai news,latest Mumbai news,Mumbai updates,Mumbai current affairs,politics news,Mumbai breaking news,Mumbai headlines,business news,entertainment news,sports news</td>
+<td>http://www.india.com/news/mumbai/</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+ActualPage Title : Mumbai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Mumbai at India.com<br/>
+Mumbai Page: Success !!<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

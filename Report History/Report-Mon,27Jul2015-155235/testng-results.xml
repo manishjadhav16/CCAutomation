@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="21" passed="19">
+  <reporter-output>
+    <line>
+      <![CDATA[ActualPage Title : India | Latest India News | Get Free India.com Email | Live Cricket and Entertainment News at India.Com]]>
+    </line>
+    <line>
+      <![CDATA[Home Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Latest News India | Get Breaking & Exclusive News Headlines & Stories at India.com]]>
+    </line>
+    <line>
+      <![CDATA[News page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Latest India News | Get Breaking News Headlines, Live International Updates & Stories of India at India.com]]>
+    </line>
+    <line>
+      <![CDATA[India Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : World : Latest World News | Get Breaking News Headlines, Live International Updates & Stories of World at India.com]]>
+    </line>
+    <line>
+      <![CDATA[World Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Cities page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Business News | Live Sensex | Latest Stock Market & Economy News India | India.com]]>
+    </line>
+    <line>
+      <![CDATA[Business page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Latest & Popular Photo Galleries | Trending & Hot Pictures | Pics on Current Affaires | India.com]]>
+    </line>
+    <line>
+      <![CDATA[Gallery Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Latest Entertainment Stories & Gossip | Trending Bollywood & Hollywood Stories | India.com]]>
+    </line>
+    <line>
+      <![CDATA[Showbiz Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Watch Videos Online For Free | Funny & Viral Videos | India.com]]>
+    </line>
+    <line>
+      <![CDATA[Stream Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Latest News & Gossip on Popular Trends | News Satire, Spoof & Humour on Hot Topics | India.com]]>
+    </line>
+    <line>
+      <![CDATA[Whatever Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Popular Listings on Hot Topics | Trending News on Entertainment, Sports & Technology at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Top n Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Ahmedabad : Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Ahmedabad at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Ahmedabad Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Bangalore: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Bangalore at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Bangalore Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Chandigarh: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chandigarh at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Chandigarh Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Chennai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chennai at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Chennai Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Hyderabad: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Hyderabad at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Hyderabad Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Jaipur: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Jaipur at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Jaipur Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Mumbai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Mumbai at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Mumbai Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Pune: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Pune at India.com]]>
+    </line>
+    <line>
+      <![CDATA[Pune Page: Success !!]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="663942" started-at="2015-07-27T10:11:30Z" finished-at="2015-07-27T10:22:34Z">
+    <groups>
+    </groups>
+    <test name="PageTitle" duration-ms="663942" started-at="2015-07-27T10:11:30Z" finished-at="2015-07-27T10:22:34Z">
+      <class name="com.ccautomation.pagetitle.PageTitleTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="beforeClass" is-config="true" duration-ms="2432" started-at="2015-07-27T15:41:30Z" finished-at="2015-07-27T15:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="34737" started-at="2015-07-27T15:41:33Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India | Latest India News | Get Free India.com Email | Live Cricket and Entertainment News at India.Com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India news & live updates on cricket, entertainment & latest technology by India.com - Proud to be India. Start using India's most amazing free email experience: India.com Mail now.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India news & live updates on cricket, entertainment & latest technology by India.com - Proud to be India. Start using India's most amazing free email experience: India.com Mail now.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : India | Latest India News | Get Free India.com Email | Live Cricket and Entertainment News at India.Com]]>
+            </line>
+            <line>
+              <![CDATA[Home Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30558" started-at="2015-07-27T15:42:08Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[News page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Latest News India | Get Breaking & Exclusive News Headlines & Stories at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest News India – Get latest & breaking news on politics, business, technology, bollywood, television, sports. Find exclusive news stories on current affairs, cricket matches, events, festivals & more at india.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest news,news updates,news headlines,india news,breaking news,political news,sports news,exclusive news,top news,live news updates,bollywood news,business news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Latest News India | Get Breaking & Exclusive News Headlines & Stories at India.com]]>
+            </line>
+            <line>
+              <![CDATA[News page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30772" started-at="2015-07-27T15:42:38Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:43:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Latest India News | Get Breaking News Headlines, Live International Updates & Stories of India at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[India News & Updates - Get latest & breaking Indian news from Delhi, Mumbai, Bangalore, Kolkata, Chennai, Hyderabad, Pune, Ahmedabad, Chandigarh , Jaipur and rest of the india including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India news,latest India news,India breaking news,local news,international news,uk headlines,us headlines,UAE headlines]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/india/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Latest India News | Get Breaking News Headlines, Live International Updates & Stories of India at India.com]]>
+            </line>
+            <line>
+              <![CDATA[India Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30624" started-at="2015-07-27T15:43:09Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:43:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[World Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[World : Latest World News | Get Breaking News Headlines, Live International Updates & Stories of World at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[World News & Updates - Get latest & breaking international news from US, UK, Europe, UAE and rest of the world including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[world news,latest world news,world breaking news,global news,international news,uk headlines,us headlines,UAE headlines]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/world/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : World : Latest World News | Get Breaking News Headlines, Live International Updates & Stories of World at India.com]]>
+            </line>
+            <line>
+              <![CDATA[World Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30488" started-at="2015-07-27T15:43:40Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:44:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cities page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest News on Indian Cities - Get breaking news & exclusive stories of Indian cities including Delhi, Mumbai, Bangalore, Kolkata, Chennai, Hyderabad, Pune, Ahmedabad, Chandigarh & Jaipur online at india.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Cities :  latest city news,city news,indian city news,metro city news,metro news,india metro news,news on metro cities,news on cities,news update metro,metro news update,india city news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/cities/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Cities page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30461" started-at="2015-07-27T15:44:10Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:44:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Business page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Business News | Live Sensex | Latest Stock Market & Economy News India | India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest Business News – Live Sensex & latest updates on share market India including NSE, BSE, Top Companies, Markets, Sectors, Banking, interviews and money management tips at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest business news,Indian stock market today,stock market news,financial advice,SENSEX live,Nifty,BSE,world business news,insurance,tax,stock market,forex,company profiles,global economy,technology news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/business/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Business News | Live Sensex | Latest Stock Market & Economy News India | India.com]]>
+            </line>
+            <line>
+              <![CDATA[Business page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30505" started-at="2015-07-27T15:44:40Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:45:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gallery Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Latest & Popular Photo Galleries | Trending & Hot Pictures | Pics on Current Affaires | India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest & Popular Photo Galleries - Explore trending photos & unseen picture galleries of bollywood, Hollywood, sports & other popular topics at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Photo gallery,picture gallery,bollywood unseen photos,popular photos,pictures of the day,Photo gallery of trending topics]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/gallery/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Latest & Popular Photo Galleries | Trending & Hot Pictures | Pics on Current Affaires | India.com]]>
+            </line>
+            <line>
+              <![CDATA[Gallery Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="FAIL" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31208" started-at="2015-07-27T15:45:11Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:45:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sports Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest & Popular Sports News - Read popular gossip, humorous & satire News on cricket, football, tennis, badminton & all other sports & celebrities at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[News on sports,gossip on cricket celebrities,satire news on sports,humours News on cricket,sports gossip,gossip on sports celebrities]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/sports/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [ Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com ] but found [Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [ Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com ] but found [Latest Stories of Trending Topics on Sports | Humorous & Satire Stories on Sport Celebrities | India.com]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30510" started-at="2015-07-27T15:45:42Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:46:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Showbiz Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Latest Entertainment Stories & Gossip | Trending Bollywood & Hollywood Stories | India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest Entertainment News & Gossip - Get hot & trending news on bollywood & hollywood movies, celebrities & events at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bollywood news,Hollywood News,trending bollywood news,trending Hollywood news,celebrity gossip,celebrity News,bollywood gossip]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/showbiz/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Latest Entertainment Stories & Gossip | Trending Bollywood & Hollywood Stories | India.com]]>
+            </line>
+            <line>
+              <![CDATA[Showbiz Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30461" started-at="2015-07-27T15:46:13Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:46:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stream Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Watch Videos Online For Free | Funny & Viral Videos | India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Watch Videos Online For Free -  Get Hot , Funny & Viral Videos at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Watch Videos Online,Hot videos online,Funny videos,Viral Videos,free videos online,video clips]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/stream/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Watch Videos Online For Free | Funny & Viral Videos | India.com]]>
+            </line>
+            <line>
+              <![CDATA[Stream Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30491" started-at="2015-07-27T15:46:43Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:47:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Whatever Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Latest News & Gossip on Popular Trends | News Satire, Spoof & Humour on Hot Topics | India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Latest News on Popular & Hot Topics - Read popular & humorous gossip on entertainment, sports & technology at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest News,popular News,bollywood News,Hollywood News,humorous News,popular topics,hot News]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/whatever/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Latest News & Gossip on Popular Trends | News Satire, Spoof & Humour on Hot Topics | India.com]]>
+            </line>
+            <line>
+              <![CDATA[Whatever Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31405" started-at="2015-07-27T15:47:14Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:47:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Top n Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Popular Listings on Hot Topics | Trending News on Entertainment, Sports & Technology at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Popular Listings News & Hot Topics - Read popular & humorous gossip on entertainment, sports & technology at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest News,popular News,bollywood News,Hollywood News,humorous News,popular topics,hot News,News on sports]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/top-n/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Popular Listings on Hot Topics | Trending News on Entertainment, Sports & Technology at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Top n Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="38233" started-at="2015-07-27T15:47:45Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:48:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ahmedabad Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmedabad : Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Ahmedabad at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ahmedabad: Latest News & Updates - Get latest & breaking news headlines, stories & articles on Ahmedabad including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Ahmedabad  news,latest Ahmedabad news,Ahmedabad updates,Ahmedabad current affairs,politics news,Ahmedabad breaking news,&lt;city name&gt; headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/ahmedabad/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Ahmedabad : Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Ahmedabad at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Ahmedabad Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31309" started-at="2015-07-27T15:48:23Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bangalore Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bangalore: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Bangalore at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bangalore: Latest News & Updates - Get latest & breaking news headlines, stories & articles on Bangalore including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Bangalore news,latest Bangalore news,Bangalore updates,Bangalore current affairs,politics news,Bangalore breaking news,Bangalore headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/bangalore/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Bangalore: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Bangalore at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Bangalore Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30899" started-at="2015-07-27T15:48:55Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:49:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chandigarh Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chandigarh: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chandigarh at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chandigarh : Latest News & Updates - Get latest & breaking news headlines, stories & articles on Chandigarh including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chandigarh news,latest Chandigarh news,Chandigarh updates,Chandigarh current affairs,politics news,Chandigarh breaking news,Chandigarh headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/chandigarh/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Chandigarh: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chandigarh at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Chandigarh Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31587" started-at="2015-07-27T15:49:26Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:49:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chennai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chennai at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chennai: Latest News & Updates - Get latest & breaking news headlines, stories & articles on Chennai including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Chennai news,latest Chennai news,Chennai updates,Chennai current affairs,politics news,Chennai breaking news,Chennai headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/chennai/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Chennai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Chennai at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Chennai Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="FAIL" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31056" started-at="2015-07-27T15:49:57Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Delhi: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Delhi at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Delhi: Latest News & Updates - Get latest & breaking news headlines, stories & articles on Delhi including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Delhi news,latest Delhi news,Delhi updates,Delhi current affairs,politics news,Delhi breaking news,Delhi headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/cities/]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Delhi: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Delhi at India.com] but found [Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Delhi: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Delhi at India.com] but found [Latest News on Indian Cities | Get Breaking News & Exclusive Stories of Indian Cities at India.com]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.ccautomation.pagetitle.PageTitleTest.verifyTitle(PageTitleTest.java:54)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray2(ReflectionUtils.java:208)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:159)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:87)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:95)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30954" started-at="2015-07-27T15:50:28Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:50:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hyderabad Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Hyderabad at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad : Latest News & Updates - Get latest & breaking news headlines, stories & articles on Hyderabad including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hyderabad news,latest Hyderabad news,Hyderabad updates,Hyderabad current affairs,politics news,Hyderabad breaking news,Hyderabad headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/hyderabad/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Hyderabad: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Hyderabad at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Hyderabad Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="30930" started-at="2015-07-27T15:50:59Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:51:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jaipur Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaipur: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Jaipur at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jaipur: Latest News & Updates - Get latest & breaking news headlines, stories & articles of Jaipur including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Jaipur news,latest Jaipur news,Jaipur updates,Jaipur current affairs,politics news,Jaipur breaking news,Jaipur headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/jaipur/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Jaipur: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Jaipur at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Jaipur Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31239" started-at="2015-07-27T15:51:30Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:52:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mumbai Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mumbai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Mumbai at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mumbai: Latest News & Updates - Get latest & breaking news headlines, stories & articles on Mumbai including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mumbai news,latest Mumbai news,Mumbai updates,Mumbai current affairs,politics news,Mumbai breaking news,Mumbai headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/mumbai/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Mumbai: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Mumbai at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Mumbai Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="verifyTitle" duration-ms="31482" started-at="2015-07-27T15:52:01Z" data-provider="pageTitleDataProvider" finished-at="2015-07-27T15:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pune Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pune: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Pune at India.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pune: Latest News & Updates - Get latest & breaking news headlines, stories & articles on Pune including current affairs, politics, business, entertainment, bollywood, sports & more online at India.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pune news,latest Pune news,Pune updates,Pune current affairs,politics news,Pune breaking news,Pune headlines,business news,entertainment news,sports news]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://www.india.com/news/pune/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Pune: Latest News & Updates | Get Breaking News Headlines & Exclusive Stories on Pune at India.com]]>
+            </line>
+            <line>
+              <![CDATA[Pune Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@1a5e471]" name="afterClass" is-config="true" duration-ms="1240" started-at="2015-07-27T15:52:33Z" finished-at="2015-07-27T15:52:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ccautomation.pagetitle.PageTitleTest -->
+    </test> <!-- PageTitle -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

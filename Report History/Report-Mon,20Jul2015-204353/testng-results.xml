@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[ActualPage Title : Live Cricket Score & News | Latest Articles & Match Updates | Cricket Photos & Videos | CricketCountry.com]]>
+    </line>
+    <line>
+      <![CDATA[Home page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Cricket News - Latest Cricket News, Live Match Updates & News Articles on cricketcountry.com | Cricket Country]]>
+    </line>
+    <line>
+      <![CDATA[News Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Cricket Articles | Cricket News | Cricket Blogs | Cricket Posts | CricketCountry.com | Cricket Country]]>
+    </line>
+    <line>
+      <![CDATA[Article Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Cricket Photos - Image Gallery of Cricket Players in Action | Cricket Photo Gallery at CricketCountry.com | Cricket Country]]>
+    </line>
+    <line>
+      <![CDATA[Photos Page: Success !!]]>
+    </line>
+    <line>
+      <![CDATA[ActualPage Title : Cricket Videos | Live Cricket Videos & News | Free Cricket Highlight Videos | CricketCountry.com | Cricket Country]]>
+    </line>
+    <line>
+      <![CDATA[Videos Page: Success !!]]>
+    </line>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="164562" started-at="2015-07-20T15:10:23Z" finished-at="2015-07-20T15:13:07Z">
+    <groups>
+    </groups>
+    <test name="PageTitle" duration-ms="164562" started-at="2015-07-20T15:10:23Z" finished-at="2015-07-20T15:13:07Z">
+      <class name="com.ccautomation.pagetitle.PageTitleTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="beforeClass" is-config="true" duration-ms="7495" started-at="2015-07-20T20:40:23Z" finished-at="2015-07-20T20:40:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="verifyTitle" duration-ms="32912" started-at="2015-07-20T20:40:30Z" data-provider="pageTitleDataProvider" finished-at="2015-07-20T20:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Live Cricket Score & News | Latest Articles & Match Updates | Cricket Photos & Videos | CricketCountry.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.cricketcountry.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Live Cricket Score & News | Latest Articles & Match Updates | Cricket Photos & Videos | CricketCountry.com]]>
+            </line>
+            <line>
+              <![CDATA[Home page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="verifyTitle" duration-ms="30663" started-at="2015-07-20T20:41:03Z" data-provider="pageTitleDataProvider" finished-at="2015-07-20T20:41:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[News Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cricket News - Latest Cricket News, Live Match Updates & News Articles on cricketcountry.com | Cricket Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.cricketcountry.com/news]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Cricket News - Latest Cricket News, Live Match Updates & News Articles on cricketcountry.com | Cricket Country]]>
+            </line>
+            <line>
+              <![CDATA[News Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="verifyTitle" duration-ms="30571" started-at="2015-07-20T20:41:34Z" data-provider="pageTitleDataProvider" finished-at="2015-07-20T20:42:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Article Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cricket Articles | Cricket News | Cricket Blogs | Cricket Posts | CricketCountry.com | Cricket Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.cricketcountry.com/articles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Cricket Articles | Cricket News | Cricket Blogs | Cricket Posts | CricketCountry.com | Cricket Country]]>
+            </line>
+            <line>
+              <![CDATA[Article Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="verifyTitle" duration-ms="30804" started-at="2015-07-20T20:42:05Z" data-provider="pageTitleDataProvider" finished-at="2015-07-20T20:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Photos Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cricket Photos - Image Gallery of Cricket Players in Action | Cricket Photo Gallery at CricketCountry.com | Cricket Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.cricketcountry.com/photos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Cricket Photos - Image Gallery of Cricket Players in Action | Cricket Photo Gallery at CricketCountry.com | Cricket Country]]>
+            </line>
+            <line>
+              <![CDATA[Photos Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="verifyTitle(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="verifyTitle" duration-ms="30668" started-at="2015-07-20T20:42:35Z" data-provider="pageTitleDataProvider" finished-at="2015-07-20T20:43:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Videos Page]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Cricket Videos | Live Cricket Videos & News | Free Cricket Highlight Videos | CricketCountry.com | Cricket Country]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://www.cricketcountry.com/videos]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ActualPage Title : Cricket Videos | Live Cricket Videos & News | Free Cricket Highlight Videos | CricketCountry.com | Cricket Country]]>
+            </line>
+            <line>
+              <![CDATA[Videos Page: Success !!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.ccautomation.pagetitle.PageTitleTest@145aec0]" name="afterClass" is-config="true" duration-ms="1288" started-at="2015-07-20T20:43:06Z" finished-at="2015-07-20T20:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.ccautomation.pagetitle.PageTitleTest -->
+    </test> <!-- PageTitle -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

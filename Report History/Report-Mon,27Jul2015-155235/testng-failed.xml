@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Smoke Test]">
+  <test name="PageTitle(failed)">
+    <classes>
+      <class name="com.ccautomation.pagetitle.PageTitleTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="verifyTitle" invocation-numbers="7 16"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.ccautomation.pagetitle.PageTitleTest -->
+    </classes>
+  </test> <!-- PageTitle(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

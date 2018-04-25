@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.589 sec <<< FAILURE!
+testUntitled(com.ccautomation.testPackage.Check404)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.ccautomation.testPackage.Check404.testUntitled(Check404.java:41)
+
